@@ -1,0 +1,9 @@
+# This public repository stores release metadata, not game binaries or source.
+*
+!.gitignore
+!README.md
+!CHANGELOG.md
+!LICENSE
+!LICENSE.txt
+!docs/
+!docs/**
