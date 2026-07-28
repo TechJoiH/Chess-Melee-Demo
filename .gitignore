@@ -1,9 +1,10 @@
-# This public repository stores release metadata, not game binaries or source.
-*
-!.gitignore
-!README.md
-!CHANGELOG.md
-!LICENSE
-!LICENSE.txt
-!docs/
-!docs/**
+# Track the publishable Unity player so every rebuild appears in GitHub Desktop.
+# Keep debugging symbols and Unity's explicitly non-shipping output private.
+*_BurstDebugInformation_DoNotShip/
+*.pdb
+*.mdb
+*.debug
+*.dmp
+*.log
+Crashes/
+crashes/

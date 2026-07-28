@@ -1,0 +1,164 @@
+﻿[
+  {
+    "id": 1,
+    "name": "黑棋",
+    "color": 1,
+    "res": "ChessRes/BlueChess/bluePiece",
+    "moveRange": 1,
+    "script": "BasePiece",
+    "maxCount": 160
+  },
+  {
+    "id": 2,
+    "name": "白棋",
+    "color": -1,
+    "res": "ChessRes/RedChess/redPiece",
+    "moveRange": 1,
+    "script": "BasePiece",
+    "maxCount": 160
+  },
+  {
+    "id": 3,
+    "name": "将",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueKing",
+    "moveRange": 1,
+    "script": "AllDirectionLinePiece",
+    "maxCount": 1
+  },
+  {
+    "id": 4,
+    "name": "士",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueKnight",
+    "moveRange": 1,
+    "script": "KnightPiece",
+    "maxCount": 2
+  },
+  {
+    "id": 5,
+    "name": "象",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueMinister",
+    "moveRange": 4,
+    "script": "MinisterPiece",
+    "maxCount": 2
+  },
+  {
+    "id": 6,
+    "name": "车",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueCar",
+    "moveRange": 19,
+    "script": "LinePiece",
+    "maxCount": 2
+  },
+  {
+    "id": 7,
+    "name": "马",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueHorse",
+    "moveRange": 3,
+    "script": "HorsePiece",
+    "maxCount": 2
+  },
+  {
+    "id": 8,
+    "name": "炮",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueCanno",
+    "moveRange": 19,
+    "script": "CannoPiece",
+    "maxCount": 2
+  },
+  {
+    "id": 9,
+    "name": "卒",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueSodier",
+    "moveRange": 1,
+    "script": "SoldierPiece",
+    "maxCount": 5
+  },
+  {
+    "id": 10,
+    "name": "帅",
+    "color": -1,
+    "res": "ChessRes/RedChess/redKing",
+    "moveRange": 1,
+    "script": "AllDirectionLinePiece",
+    "maxCount": 1
+  },
+  {
+    "id": 11,
+    "name": "仕",
+    "color": -1,
+    "res": "ChessRes/RedChess/redKnight",
+    "moveRange": 1,
+    "script": "KnightPiece",
+    "maxCount": 2
+  },
+  {
+    "id": 12,
+    "name": "相",
+    "color": -1,
+    "res": "ChessRes/RedChess/redMinister",
+    "moveRange": 4,
+    "script": "MinisterPiece",
+    "maxCount": 2
+  },
+  {
+    "id": 13,
+    "name": "车",
+    "color": -1,
+    "res": "ChessRes/RedChess/redCar",
+    "moveRange": 19,
+    "script": "LinePiece",
+    "maxCount": 2
+  },
+  {
+    "id": 14,
+    "name": "马",
+    "color": -1,
+    "res": "ChessRes/RedChess/redHorse",
+    "moveRange": 3,
+    "script": "HorsePiece",
+    "maxCount": 2
+  },
+  {
+    "id": 15,
+    "name": "炮",
+    "color": -1,
+    "res": "ChessRes/RedChess/redCanno",
+    "moveRange": 19,
+    "script": "CannoPiece",
+    "maxCount": 2
+  },
+  {
+    "id": 16,
+    "name": "兵",
+    "color": -1,
+    "res": "ChessRes/RedChess/redSodier",
+    "moveRange": 1,
+    "script": "SoldierPiece",
+    "maxCount": 5
+  },
+  {
+    "id": 17,
+    "name": "皇",
+    "color": 1,
+    "res": "ChessRes/BlueChess/blueQueen",
+    "moveRange": 19,
+    "script": "AllDirectionLinePiece",
+    "maxCount": 1
+  },
+  {
+    "id": 18,
+    "name": "后",
+    "color": -1,
+    "res": "ChessRes/RedChess/redQueen",
+    "moveRange": 19,
+    "script": "AllDirectionLinePiece",
+    "maxCount": 1
+  }
+]

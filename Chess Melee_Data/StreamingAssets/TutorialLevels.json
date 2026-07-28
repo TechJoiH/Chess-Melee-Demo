@@ -1,0 +1,345 @@
+﻿[
+  {
+    "levelId": 0,
+    "title": "新手入门",
+    "description": "学习如何取出棋子和放置棋子"
+  },
+  {
+    "levelId": 1,
+    "title": "普通棋子",
+    "description": "学习如何移动普通棋子和普通棋子二连淘汰教学",
+    "initialPieces": [
+      {
+        "x": 1,
+        "y": 1,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 2,
+    "title": "三连教学",
+    "description": "学习如何触发三连和三连效果",
+    "initialPieces": [
+      {
+        "x": 2,
+        "y": 2,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "pieceId": 1,
+        "isPlayer": true
+      }
+    ]
+  },
+  {
+    "levelId": 3,
+    "title": "将领出征",
+    "description": "【将】移动范围仅限一格，但可向任意方向移动。击败前方的敌人！",
+    "initialPieces": [
+      {
+        "x": 4,
+        "y": 1,
+        "pieceId": 3,
+        "isPlayer": true
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 4,
+    "title": "忠诚护卫",
+    "description": "【士】必须守护在【将】的周围。尝试控制士斜向移动消灭敌人。（注意：场上必须有将存在士才能行动）",
+    "initialPieces": [
+      {
+        "x": 1,
+        "y": 0,
+        "pieceId": 3,
+        "isPlayer": true
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "pieceId": 4,
+        "isPlayer": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 5,
+    "title": "国之重器",
+    "description": "【象】拥有较大的移动范围，通常用于防守或远距离截击。",
+    "initialPieces": [
+      {
+        "x": 2,
+        "y": 2,
+        "pieceId": 5,
+        "isPlayer": true
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "pieceId": 2,
+        "isPlayer": false
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 6,
+    "title": "横冲直撞",
+    "description": "【车】是战场上的利器，可以沿直线移动任意距离。消灭远处的敌人！",
+    "initialPieces": [
+      {
+        "x": 1,
+        "y": 1,
+        "pieceId": 6,
+        "isPlayer": true
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 7,
+    "title": "奇兵突袭",
+    "description": "【马】走日字形。只要不被“蹩马脚”（移动方向邻格无子），它就能跨越战场消灭敌人。",
+    "initialPieces": [
+      {
+        "x": 2,
+        "y": 2,
+        "pieceId": 7,
+        "isPlayer": true
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "pieceId": 2,
+        "isPlayer": false
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "pieceId": 15,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 8,
+    "title": "隔山打牛",
+    "description": "【炮】在移动时如同车一般，但【吃子】时必须隔着一颗棋子（炮架）。利用中间的棋子作为跳板攻击后方敌人！",
+    "initialPieces": [
+      {
+        "x": 1,
+        "y": 1,
+        "pieceId": 8,
+        "isPlayer": true
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "pieceId": 2,
+        "isPlayer": false
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 9,
+    "title": "勇往直前",
+    "description": "【卒】只能前进或横走，但吃子方式很特殊：只能吃【斜前方】的敌人。",
+    "initialPieces": [
+      {
+        "x": 3,
+        "y": 3,
+        "pieceId": 9,
+        "isPlayer": true
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 10,
+    "title": "全能皇者",
+    "description": "【皇】结合了直飞与斜飞的能力，拥有最强的机动性。",
+    "initialPieces": [
+      {
+        "x": 3,
+        "y": 3,
+        "pieceId": 17,
+        "isPlayer": true
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 11,
+    "title": "四连教学",
+    "description": "通过落子达成四子连珠！观察场上的局势，填补关键空位。",
+    "initialPieces": [
+      {
+        "x": 2,
+        "y": 3,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "pieceId": 2,
+        "isPlayer": false
+      }
+    ]
+  },
+  {
+    "levelId": 12,
+    "title": "五连教学",
+    "description": "最高级的战术：五子连珠！在两个连段之间落子，完成终极连击。",
+    "initialPieces": [
+      {
+        "x": 1,
+        "y": 4,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "pieceId": 3,
+        "isPlayer": true
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "pieceId": 1,
+        "isPlayer": true
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "pieceId": 5,
+        "isPlayer": true
+      }
+    ]
+  },
+  {
+    "levelId": 13,
+    "title": "完整实战教程",
+    "description": "在一盘连续棋局中学习落子、回合、移动、吃子、完整二连、特殊棋、三连奖励、四连选择、五连灵魂化和胜负结算。",
+    "overrideBasicSupply": true,
+    "playerRemainingBasicPieces": 3,
+    "enemyRemainingBasicPieces": 20,
+    "replaceSpecialSupply": true,
+    "specialSupply": [
+      {
+        "pieceId": 17,
+        "count": 1
+      }
+    ],
+    "initialPieces": [
+      { "x": 0, "y": 4, "pieceId": 1, "isPlayer": true },
+      { "x": 1, "y": 4, "pieceId": 1, "isPlayer": true },
+      { "x": 2, "y": 1, "pieceId": 1, "isPlayer": true },
+      { "x": 2, "y": 2, "pieceId": 1, "isPlayer": true },
+      { "x": 2, "y": 3, "pieceId": 1, "isPlayer": true },
+      { "x": 5, "y": 6, "pieceId": 1, "isPlayer": true },
+      { "x": 6, "y": 7, "pieceId": 1, "isPlayer": true },
+      { "x": 5, "y": 7, "pieceId": 1, "isPlayer": true },
+      { "x": 4, "y": 6, "pieceId": 1, "isPlayer": true },
+      { "x": 8, "y": 6, "pieceId": 1, "isPlayer": true },
+      { "x": 7, "y": 5, "pieceId": 1, "isPlayer": true },
+      { "x": 6, "y": 8, "pieceId": 1, "isPlayer": true },
+      { "x": 5, "y": 5, "pieceId": 5, "isPlayer": true },
+      { "x": 2, "y": 6, "pieceId": 4, "isPlayer": true },
+      { "x": 7, "y": 0, "pieceId": 3, "isPlayer": true },
+      { "x": 4, "y": 1, "pieceId": 9, "isPlayer": true },
+
+      { "x": 4, "y": 5, "pieceId": 13, "isPlayer": false },
+      { "x": 7, "y": 6, "pieceId": 14, "isPlayer": false },
+      { "x": 7, "y": 8, "pieceId": 15, "isPlayer": false },
+      { "x": 1, "y": 5, "pieceId": 12, "isPlayer": false },
+      { "x": 3, "y": 6, "pieceId": 2, "isPlayer": false },
+      { "x": 6, "y": 5, "pieceId": 2, "isPlayer": false },
+      { "x": 6, "y": 4, "pieceId": 2, "isPlayer": false },
+      { "x": 6, "y": 1, "pieceId": 2, "isPlayer": false },
+      { "x": 4, "y": 4, "pieceId": 2, "isPlayer": false },
+      { "x": 4, "y": 8, "pieceId": 2, "isPlayer": false, "isSpirit": true },
+      { "x": 8, "y": 4, "pieceId": 2, "isPlayer": false, "isSpirit": true },
+      { "x": 8, "y": 0, "pieceId": 10, "isPlayer": false },
+      { "x": 7, "y": 1, "pieceId": 11, "isPlayer": false },
+      { "x": 6, "y": 3, "pieceId": 16, "isPlayer": false },
+      { "x": 0, "y": 6, "pieceId": 18, "isPlayer": false },
+      { "x": 8, "y": 2, "pieceId": 16, "isPlayer": false }
+    ]
+  }
+]
