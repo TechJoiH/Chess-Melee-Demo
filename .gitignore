@@ -1,10 +1,10 @@
-# Track the publishable Unity player so every rebuild appears in GitHub Desktop.
-# Keep debugging symbols and Unity's explicitly non-shipping output private.
-*_BurstDebugInformation_DoNotShip/
-*.pdb
-*.mdb
-*.debug
-*.dmp
-*.log
-Crashes/
-crashes/
+# Keep the public repository limited to release metadata.
+# Playable builds are uploaded as GitHub Release assets.
+*
+!.gitignore
+!README.md
+!CHANGELOG.md
+!LICENSE
+!LICENSE.txt
+!docs/
+!docs/**
